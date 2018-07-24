@@ -40,7 +40,6 @@ from superset import app, cache, get_manifest_file, utils
 from superset.utils import DTTM_ALIAS, JS_MAX_INTEGER, merge_extra_filters
 
 
-
 config = app.config
 stats_logger = config.get('STATS_LOGGER')
 
