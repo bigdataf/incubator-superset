@@ -1236,7 +1236,6 @@ class NVD3DualLineViz(NVD3Viz):
         df.columns = cols
         series = df.to_dict('series')
         chart_data = []
-
         metric = self.form_data.get('metric')
         metric_2 = self.form_data.get('metric_2')
         if isinstance(metric, dict):
